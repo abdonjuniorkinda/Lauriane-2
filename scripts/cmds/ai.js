@@ -4,8 +4,8 @@ const Prefixes = [
   '/ai',
   'Mélanie',
   'tamamo',
-  '.ai',
-  'Mld',
+  '+ai',
+  'tamamo',
   'ai',
   'ask',
 ];
