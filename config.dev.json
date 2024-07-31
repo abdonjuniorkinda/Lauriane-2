@@ -1,6 +1,6 @@
 {
   "facebookAccount": {
-    "email": "kennedyandreah@gmail.com",
+    "email": "pmld3100@gmail.com",
     "password": "jaguard",
     "2FASecret": "",
     "i_user": "",
@@ -36,10 +36,10 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "✪𝑴𝒍𝒅ᕯ𝑩𝒐𝒕✪",
-  "authorName": "👑MLD👑",
-  "authorFB": "https://www.facebook.com/xnilxhowdhury143",
-  "authorEmail": "xnilxhowdhury@gmail.com",
+  "nickNameBot": "🥀°🐤𝗠𝗟𝗗°𝗕𝗢𝗧🐤🥀",
+  "authorName": "👑𝗠𝗟𝗗👑",
+  "authorFB": "https://m.me/100085261760009",
+  "authorEmail": "manosmith524@gmail.com",
   "prefix": ".",
   "database": {
     "type": "sqlite",
