@@ -36,11 +36,11 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🥀°🐤𝗠𝗟𝗗°𝗕𝗢𝗧🐤🥀",
+  "nickNameBot": "(^ ◡ ^) ✂❤",
   "authorName": "👑𝗠𝗟𝗗👑",
   "authorFB": "https://m.me/100085261760009",
   "authorEmail": "manosmith524@gmail.com",
-  "prefix": ".",
+  "prefix": "'",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
