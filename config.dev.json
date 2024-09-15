@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "pmld3100@gmail.com",
-    "password": "jaguard",
+    "email": "abdonjuniork@gmail.com",
+    "password": "junior",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -36,11 +36,11 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "(^ ◡ ^) ✂❤",
+  "nickNameBot": "Junior bot",
   "authorName": "👑𝗠𝗟𝗗👑",
   "authorFB": "https://m.me/100085261760009",
   "authorEmail": "manosmith524@gmail.com",
-  "prefix": "'",
+  "prefix": "*",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
