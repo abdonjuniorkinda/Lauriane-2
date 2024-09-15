@@ -33,7 +33,7 @@ module.exports = {
 			const categories = {};
 			let msg = "";
 
-			msg += `\n\n    🌿🏵══ 𝗠𝗟𝗗✧𝗕𝗢𝗧══🏵🌿
+			msg += `\n\n    🌿🏵══ 𝗝𝗥✧𝗕𝗢𝗧══🏵️🌿
 
  `; // replace with your name 
 
@@ -47,16 +47,16 @@ module.exports = {
 
 			Object.keys(categories).forEach((category) => {
 				if (category !== "info") {
-					msg += `\n╭━✷${category.toUpperCase()}✷ `;
+					msg += `\n╭━✦${category.toUpperCase()}✦ `;
 
 
 					const names = categories[category].commands.sort();
 					for (let i = 0; i < names.length; i += 3) {
-						const cmds = names.slice(i, i + 3).map((item) => ` ★${item}`);
+						const cmds = names.slice(i, i + 3).map((item) => ` ✧${item}`);
 						msg += `\n│${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
 					}
 
-					msg += `\n╰────────────✷`;
+					msg += `\n╰────────────✦`;
 				}
 			});
 
@@ -64,18 +64,18 @@ module.exports = {
 			msg += `\n𝐋𝐚𝐮𝐫𝐢𝐚𝐧𝐞☆𝐁𝐨𝐭 𝐡𝐚𝐬  ${totalCommands} 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ✔\n`;
 			msg += `${prefix}𝐡𝐞𝐥𝐩 𝐭𝐨 𝐥𝐨𝐨𝐤 𝐜𝐦𝐝𝐬\n`;
           msg += `𝐀𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐫𝐞𝐥𝐚𝐭𝐞𝐝 𝐭𝐨 𝐛𝐨𝐭 𝐭𝐡𝐞𝐧 𝐮𝐬𝐞 ${prefix}𝐜𝐚𝐥𝐥𝐚𝐝\n`;
-			msg += `Admin :👑☆𝐌𝐥𝐝☆𝐄𝐦𝐦𝐚𝐧𝐮𝐞𝐥☆\n\n`; // its not decoy so change it if you want
-          msg += `           (^ ◡ ^) ✂❤
+			msg += `Admin :👑☆𝐀𝐛𝐝𝐨𝐧~𝐉𝐮𝐧𝐢𝐨𝐫☆\n\n`; // its not decoy so change it if you want
+          msg += `           (✷‿✷)
 
 ᕯᕯ𝒎𝒂𝒅𝒆 𝒃𝒚ᕯᕯ 
 
-[👑| 𝐌𝐥𝐝☆𝐄𝐦𝐦𝐚𝐧𝐮𝐞𝐥 ]`;
+[👑| ✬𝐀𝐛𝐝𝐨𝐧~𝐉𝐮𝐧𝐢𝐨𝐫✬ ]`;
 
-msg += `𝐅𝐛: ✰ m.me/100085261760009 ☆ `;
+msg += `𝐅𝐛: ✰ m.me/100052648010710 ☆ `;
 
 
 
-msg+= `🌿🏵══ 𝗠𝗟𝗗✧𝗕𝗢𝗧══🏵🌿 `;
+msg+= `🌿🏵══ 𝗝𝗥✧𝗕𝗢𝗧══🏵🌿 `;
 			await message.reply({
 				body: msg,
 			});
@@ -128,4 +128,4 @@ function roleTextToString(roleText) {
 		default:
 			return "Unknown role";
 	}
-	}
+}
