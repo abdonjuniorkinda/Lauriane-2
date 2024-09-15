@@ -128,4 +128,4 @@ function roleTextToString(roleText) {
 		default:
 			return "Unknown role";
 	}
-	}
+}
